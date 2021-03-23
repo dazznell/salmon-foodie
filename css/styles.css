@@ -39,13 +39,18 @@ header nav ul a{
     margin: 1rem;
     text-decoration: none;
     color: grey;
+    padding: 0.5rem;
+    margin: 1.5rem;
     transition: ease 0.3s;
 }
 
 header nav ul a:hover{
-    color: black;
+    color: white;
     transition: ease 0.3s;
     text-decoration: underline;
+    background-color: grey;
+    padding: 0.5rem;
+    position: relative;
 }
 
 /* ============== */
@@ -129,7 +134,106 @@ footer a:hover{
     }
     
     footer nav ul{
-        
         margin: 0 auto;
     }
+
+    .flex-container{
+        display: flex;
+        align-items: center;
+        width: 79%;
+        margin: 0 auto;
+    }
+
+    .card{
+        padding: 1rem;
+    }
+
+    .card p,
+    .card h4{
+        margin-bottom: 1rrem;
+    }
+
+    .card img{
+        margin-bottom: 1rem; 
+        width: 100%;   
+    }
+
+    .landing-page{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .landing-page img{
+        width: 50%;
+        margin-left: 3rem;
+    }
+    
+    .copywrite{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+
 }
+
+
+
+/* ---------------------- */
+
+/* RECIPES PAGE */
+
+.card{
+    background-color: rgb(211, 211, 211);
+    box-shadow: 5px 5px 0.7rem grey;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content:first baseline;
+    margin: 1rem;
+}
+
+.card h4,
+.card p{
+    margin-bottom: 1rem;
+}
+
+.card p{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(190, 130, 0);
+    font-weight: 700;
+    background-color: rgb(41, 41, 41);
+    padding: 0.25rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card a:hover{
+    background-color: white;
+    transition: all ease 0.3s;
+    color: rgb(41, 41, 41);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+/* -------------------------- */
+
